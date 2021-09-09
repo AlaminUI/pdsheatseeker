@@ -51,11 +51,11 @@
 
                     assets.push(assetUrl);
 
-                    if ( ! $('link[href="' + assetUrl + '"]').length) {
+                    if ( ! $('link[href="https://pds-heatseeker.netlify.app/' + assetUrl + '"]').length) {
 
                         console.log('add', assetUrl);
 
-                        $('head').append('<link rel="stylesheet" href="' + assetUrl + '" type="text/css" />');
+                        $('head').append('<link rel="stylesheet" href="https://pds-heatseeker.netlify.app/' + assetUrl + '" type="text/css" />');
                     }
                 }
             });
