@@ -8889,6 +8889,10 @@ p.mailto-link a:hover {
     -ms-transform: translateX(-50%) !important;
     -o-transform: translateX(-50%) !important; */
 }
+.vc_custom_1433564288626 {
+  margin-top: 7px !important;
+  
+}
 .services-link-wrap {
    
   flex-direction: column;
@@ -8899,6 +8903,8 @@ display: none;
 .breadcrumb .container {
   width: 100% !important;
   padding: 0;
+  max-width: 100% !important;
+  margin:0 !important;
 }
 .has-bg .breadcrumb {
  
