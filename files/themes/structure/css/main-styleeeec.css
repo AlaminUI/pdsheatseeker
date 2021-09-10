@@ -1396,7 +1396,7 @@ Common
   padding: 60px 0 30px;
 }
 .has-bg {
-  margin-bottom: 70px;
+  margin-bottom: 40px;
   text-align: center;
   padding: 50px 0 50px;
   text-transform: uppercase;
@@ -2468,6 +2468,7 @@ Footer
 }
 .footer .textwidget img {
   margin-bottom: 6px;
+  max-width: 330px;
 }
 .footer .textwidget i {
   margin-right: 10px;
@@ -8875,6 +8876,9 @@ p.mailto-link a:hover {
  
   background: #FFB600 !important;
 }
+div#wpcf7-f75348-p75925-o1 iframe {
+  margin-top: -12px !important;
+}
 @media (max-width:767px){
   .wpb_image_grid .wpb_image_grid_ul .isotope-item {
     /* left: 50% !important;
@@ -8918,9 +8922,9 @@ li.isotope-item img {
   padding-top: 8px;
 }
 .scheme .footer {
-  
   padding-top: 44px;
   padding-bottom: 16px;
+  text-align: center;
 }
 .entry-content.services-area-space {
   margin-top: 45px !important;
@@ -8932,5 +8936,27 @@ li.isotope-item img {
 h1 {
   
   font-size: 25px;
+}
+ul.service-link li a {
+   
+  display: inline-block;
+  
+}
+ul.service-link li {
+  list-style-position: inside;
+  text-align: center;
+}
+.mobile-center h2 {
+  text-align: center !important;
+}
+.mobile-center:before {
+  left: 50% !important;
+  transform: translateX(-50%);
+}
+.vc_custom_heading.heading.mobile-center {
+  margin-bottom: 32px;
+}
+.button-text-center h3{
+  text-align: center !important;
 }
 }

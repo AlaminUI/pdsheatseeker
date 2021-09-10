@@ -55,7 +55,7 @@
 
                         console.log('add', assetUrl);
 
-                        $('head').append('<link rel="stylesheet" href="https://pds-heatseeker.netlify.app/' + assetUrl + '" type="text/css" />');
+                        $('head').append('<link rel="stylesheet" href="' + assetUrl + '" type="text/css" />');
                     }
                 }
             });
