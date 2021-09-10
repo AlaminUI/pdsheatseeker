@@ -8879,15 +8879,13 @@ p.mailto-link a:hover {
 .wpcf7 iframe {
   margin-top: -12px !important;
 }
+.wpb_wrapper.request-page-space {
+  padding-top: 18px;
+}
 @media (max-width:767px){
-  .wpb_image_grid .wpb_image_grid_ul .isotope-item {
-    /* left: 50% !important;
-    transform: translateX(-50%) !important;
-    width: 100% !important;
-    -webkit-transform: translateX(-50%) !important;
-    -moz-transform: translateX(-50%) !important;
-    -ms-transform: translateX(-50%) !important;
-    -o-transform: translateX(-50%) !important; */
+ 
+.wpb_wrapper.request-page-space {
+  padding-top: 0px;
 }
 .vc_custom_1433564288626 {
   margin-top: 7px !important;
