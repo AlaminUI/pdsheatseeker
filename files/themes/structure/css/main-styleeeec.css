@@ -816,6 +816,7 @@ Common
   margin-bottom: 0 !important;
   font-weight: bold;
   letter-spacing: .5px;
+  padding: 0;
 }
 .intro4 .vc_custom_heading {
   padding-top: 30px;
@@ -5149,7 +5150,7 @@ h6 {
   line-height: 1.2;
 }
 p {
-  margin-bottom: 1em;
+  margin-bottom: 20px;
 }
 .heading-title-3,
 .heading-title-2,
@@ -5221,9 +5222,9 @@ p {
 .about-page .heading-title-3 {
   margin-bottom: 30px !important;
 }
-.about-page .wpb_text_column .wpb_wrapper p:first-child {
+/* .about-page .wpb_text_column .wpb_wrapper p:first-child {
   margin-bottom: 25px;
-}
+} */
 .intro4 .vc_btn3:after {
   content: '\f101';
   margin-left: 15px;
@@ -8559,15 +8560,15 @@ html.mm-opening .mm-menu.mm-offcanvas.mm-front,html.mm-opening .mm-menu.mm-offca
 }
 
 .vc_custom_1433820805792 {
-	margin-bottom: 50px !important;
+	margin-bottom: 32px !important;
 }
 
 .vc_custom_1433820842890 {
-	margin-bottom: 50px !important;
+	margin-bottom: 32px !important;
 }
 
 .vc_custom_1433820859851 {
-	margin-bottom: 50px !important;
+	margin-bottom: 32px !important;
 }
 .wpb_animate_when_almost_visible {
   opacity: 1;
@@ -8612,8 +8613,9 @@ html.mm-opening .mm-menu.mm-offcanvas.mm-front,html.mm-opening .mm-menu.mm-offca
 
     h3 {
         font-size: 18px;
-        padding-bottom: 8px;
+        padding-bottom: 0;
         padding-top: 8px;
+        margin-bottom: 0;
     }
 
     h4 {
@@ -8729,7 +8731,7 @@ html.mm-opening .mm-menu.mm-offcanvas.mm-front,html.mm-opening .mm-menu.mm-offca
         /* 16:9 */
         padding-top: 25px;
         height: 0;
-        margin-bottom: 25px;
+        margin-bottom: 40px;
     }
 
     .videoWrapper iframe {
@@ -8740,8 +8742,48 @@ html.mm-opening .mm-menu.mm-offcanvas.mm-front,html.mm-opening .mm-menu.mm-offca
         height: 100%;
     }
 
-
-
+    ul.service-link li  {
+      
+      list-style: none;
+      margin: 0 !important;
+       
+      display: block;
+    }
+    ul.service-link li a {
+      position: relative;
+      list-style: none;
+      margin: 0 !important;
+      padding-left: 12px;
+      display: inline-block;
+    }
+    ul.service-link li a:after {
+      position: absolute;
+      left: 0;
+      top: 11px;
+      width: 5px;
+      height: 5px;
+      background: #999999;
+      content:"";
+    }
+    p.our-partenr-text {
+      padding-bottom: 20px;
+  }
+  h2.wpb_heading.wpb_video_heading {
+    text-align: center;
+}
+.videoWrapper:last-child {
+  margin-bottom: 0;
+}
+.row.contact-row {
+  display: flex;
+  justify-content: center;
+}
+.textwidget {
+  max-width: 390px;
+}
+.d-none{
+  display: none;
+}
     /* ==========================================================================
 	Media Queries
    ========================================================================== */
@@ -8933,9 +8975,9 @@ li.isotope-item img {
 .entry-content.services-area-space {
   margin-top: 45px !important;
 }
-.wpb_single_image.wpb_content_element.vc_align_center.wpb_animate_when_almost_visible.wpb_flipInY.flipInY h2.wpb_heading.wpb_singleimage_heading{
-  margin-bottom: 20px !important;
-  margin-top:16px;
+.wpb_single_image.wpb_content_element.vc_align_center.wpb_animate_when_almost_visible.wpb_flipInY.flipInY h2.wpb_heading.wpb_singleimage_heading {
+  margin-bottom: 6px !important;
+  margin-top: 32px;
 }
 h1 {
   
@@ -8961,6 +9003,55 @@ ul.service-link li {
   margin-bottom: 32px;
 }
 .button-text-center h3{
+  text-align: center !important;
+}
+ul.service-link {
+ 
+  text-align: center;
+}
+ 
+ 
+.vc_custom_1433820805792 {
+   
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.vc_custom_1433820842890 {
+   
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.vc_custom_1433820859851 {
+   
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.d-none-sm {
+  display: none;
+}
+.d-sm-block{
+  display: block;
+}
+.mt-0{
+  margin-top: 0 !important;
+}
+p.our-partenr-text {
+  text-align: center;
+}
+.row.contact-row {
+  margin-bottom: 16px;
+}
+.row.contact-row {
+  display: block;
+  text-align: center;
+}
+.textwidget {
+  max-width: 100%;
+}
+.sm-text-center{
   text-align: center !important;
 }
 }
